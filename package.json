@@ -1,17 +1,44 @@
 {
-  "name": "sllycli",
-  "version": "0.0.1",
-  "description": "my vue cli 0.0.1",
-  "main": "index.js",
-  "bin": {
-    "sllycli": "bin/sllycli.js"
+  "name": "sllyCli",
+  "description": "A project template of slly",
+  "author": "lishaolong",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --progress --colors --watch --config webpack.config.js",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules --config webpack.config.js"
   },
   "dependencies": {
-    "commander": "^2.9.0"
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.23.0",
+    "element-ui": "^2.3.9",
+    "eruda": "^1.4.3",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "mint-ui": "^2.2.13",
+    "precss": "^2.0.0",
+    "vue": "^2.5.16",
+    "vue-infinite-scroll": "^2.0.2",
+    "vue-resource": "^1.5.0",
+    "vue-template-compiler": "^2.5.16",
+    "webpack-uglify-parallel": "^0.1.4"
   },
-  "author": "lishaolong",
-  "license": "ISC",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "autoprefixer": "^7.2.6",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-component": "^0.9.1",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-react": "^6.23.0",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "postcss": "^6.0.22",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.5",
+    "style-loader": "^0.13.1",
+    "vue-loader": "^10.3.0",
+    "vue-router": "^2.0.3",
+    "webpack": "^2.1.0-beta.25",
+    "webpack-dev-server": "^2.11.2"
   }
 }

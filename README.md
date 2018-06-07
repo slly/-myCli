@@ -1,2 +1,0 @@
-# -myCli
-my work cli.
