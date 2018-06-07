@@ -1,0 +1,17 @@
+{
+  "name": "sllycli",
+  "version": "0.0.1",
+  "description": "my vue cli 0.0.1",
+  "main": "index.js",
+  "bin": {
+    "sllycli": "bin/sllycli.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "author": "lishaolong",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
